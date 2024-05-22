@@ -1,9 +1,13 @@
 class Contacto:
 
     def __init__(self, nombre, apellido, direccion, correo):
-        
+        self.__nombre = nombre
+        self.__apellido = apellido
+        self.__direccion = direccion
+        self.__correo = correo
 
     def darNombre(self):
+        return self.__nombre
 
     def darApellido(self):
 
